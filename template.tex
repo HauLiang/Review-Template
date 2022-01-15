@@ -1,0 +1,62 @@
+\documentclass[11pt]{article}
+
+\usepackage[includeheadfoot,top=5mm, bottom=5mm, footskip=2.5cm]{geometry}
+
+\usepackage{times}
+\usepackage{amssymb,amsmath}            
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{soul} % Highlight using \hl{}
+\usepackage{titlesec}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{bm}
+
+\setlength{\parskip}{0.5\baselineskip}%
+
+\pagestyle{empty} % Delete page number
+\setlist[enumerate,1]{topsep=1mm}
+\usepackage{setspace}
+\setstretch{1.5}
+
+\begin{document}
+	
+% Make titl
+\begin{center} 
+	{\Large \bf  Review of Manuscript-ID: “Adaptive Variational Nonlinear Chirp Mode Decomposition”}\\ 
+	{\it  All page and line references are with respect to the two-column version} \\ 
+\end{center}
+\hrule height 0.5pt\hfill
+
+\setstretch{1}
+
+The proposed approach builds upon previous work [21], but it is an enhancement and with wide applicability. 
+
+...
+
+There are some additional details that need to be added to the paper to provide completeness.
+
+\begin{enumerate}
+
+\item Page 2, line 30, there are some minor errors: in Equation (20), notation $u_i^{k+1}$ is from [24] and does not follow the paper's adopted notation.
+
+
+\item In spite of being presented in the Introduction, none of the methods in [11], [14] was used to be compared in Numerical Experiments. 
+
+\item ...
+
+\item Comparing the computation times of the proposed method and others would help the readers have a better idea of the accuracy/computation time trade-off achieved [Ref.1]. \\
+	
+\end{enumerate}
+
+
+{\large \bf \leftline{References}}
+\setlist[enumerate,1]{label=[Ref.\arabic*],leftmargin=13mm,topsep=0mm}
+\begin{enumerate}
+
+\item Ding X, Liang H, Jakobsson A, et al. High-resolution source localization exploiting the sparsity of the beamforming map[J]. Signal Processing, 2022, 192: 108377.
+
+
+\end{enumerate}
+	
+\end{document}
